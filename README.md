@@ -29,8 +29,10 @@ Frameworks to expose application metrics:
 
 * [Spring Boot Actuator](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-actuator)
   * [Application Metrics](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-metrics.html)
-  * JMX Metrics
+
   * Export to Prometheus \([thomasdarimont](https://github.com/thomasdarimont/prometheus-spring-boot-starter), [akaGelo](https://github.com/akaGelo/spring-boot-starter-prometheus), [nickymoeholm](https://github.com/nickymoelholm/prometheus-spring-boot-starter)\)
+* [Prometheus](https://github.com/prometheus/client_java) \(lots of examples in the repository\)
+  * [JMX Metrics](https://github.com/prometheus/jmx_exporter)
 * [Jolokia](https://jolokia.org/)
 
 ## Load Balancer
