@@ -28,9 +28,11 @@ Frameworks to help you write backend services quickly.
 Frameworks to expose application metrics:
 
 * [Spring Boot Actuator](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-actuator)
+
   * [Application Metrics](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-metrics.html)
 
   * Export to Prometheus \([thomasdarimont](https://github.com/thomasdarimont/prometheus-spring-boot-starter), [akaGelo](https://github.com/akaGelo/spring-boot-starter-prometheus), [nickymoeholm](https://github.com/nickymoelholm/prometheus-spring-boot-starter)\)
+
 * [Prometheus](https://github.com/prometheus/client_java) \(lots of examples in the repository\)
   * [JMX Metrics](https://github.com/prometheus/jmx_exporter)
 * [Jolokia](https://jolokia.org/)
@@ -47,6 +49,12 @@ Frameworks to expose application metrics:
 
 * [Ribbon](https://github.com/Netflix/ribbon) \([example](https://github.com/Netflix/ribbon/tree/master/ribbon-examples)\)
 * [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix) \(uses Ribbon, [example](https://spring.io/guides/gs/client-side-load-balancing/)\)
+
+## API Gateway
+
+* [Zuul](https://github.com/Netflix/zuul) \([example](https://github.com/Netflix/zuul/blob/1.x/zuul-netflix-webapp/src/main/java/com/netflix/zuul/StartServer.java)\)
+* [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/) \(uses Zuul, [example](https://spring.io/guides/gs/routing-and-filtering/)\)
+* Kubernetes Ingress
 
 ## Tracing
 
@@ -75,6 +83,10 @@ Client
 * [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix) \(uses Eureka, [example](https://spring.io/guides/gs/service-registration-and-discovery/)\)
 * [Zookeeper](https://zookeeper.apache.org/)
 * [Consul](https://www.consul.io/)
+
+## Application Generators
+
+* [JHipster](https://jhipster.github.io/) \([example](https://jhipster.github.io/microservices-architecture/)\)
 
 ## Container Orchestration
 
