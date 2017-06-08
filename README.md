@@ -50,7 +50,7 @@ Frameworks to expose application metrics:
 
 Frameworks to trace and/or collect trace data:
 
-Service
+Server
 
 * [OpenTracing](http://opentracing.io/) / Zipkin
 
